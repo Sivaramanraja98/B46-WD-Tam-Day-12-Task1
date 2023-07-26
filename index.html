@@ -1,218 +1,27 @@
-<html>
-    <head>
-        <title>CSK</title>
-        <center><h1 style="color:yellow">CHENNAI SUPER KINGS</h1></center>
-        <style>
-            body{
-                border: 2px solid black;
-                background-image: url("bg.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;        
-            }
-            header{
-                font-size: 50px;
-                text-align: center;
-                position: sticky;
-            }
-            .mgr{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .flex{
-                display: flex;
-                direction: row;
-                font-size: 30px;
-                padding: 10px;
-                border:2px solid black;
-                justify-content: space-around;
-                }
-          
-            .wrap{
-                background-color:transparent;
-                display:grid;
-                border-radius: 5px;
-                grid-template-columns:1fr,1fr,1fr,1fr;
-                gap: 10px;
-                grid-auto-rows: minmax(1fr,auto);
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 40px;
-                text-align: center;
-                font-weight: bold;
-            }
-            .one{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 25px;
-                grid-column: 1;
-                grid-row: 1;
-            }
-            .two{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 25px;
-                grid-column: 2;
-                grid-row: 1;
-            }
-            .three{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 3;
-                grid-row: 1;
-            }
-            .four{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 4;
-                grid-row: 1;
-            }
-            .five{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 1;
-                grid-row: 2;
-            }
-            .six{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 2;
-                grid-row: 2;
-            } 
-            .seven{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 3;
-                grid-row: 2;
-            }
-            .eight{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 4;
-                grid-row: 2;
-            }
-            .nine{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 1;
-                grid-row: 3;
-            }
-            .ten{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 2;
-                grid-row: 3;
-            }
-            .eleven{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column:3;
-                grid-row: 3;
-            }
-            .twelve{
-                background-color:rgb(240, 217, 45);
-                border: 5px solid rgb(95, 103, 4);
-                border-radius: 5px;
-                grid-column: 4;
-                grid-row: 3;
-            }
-            .one:hover,.two:hover,.three:hover,.four:hover,
-            .five:hover,.six:hover,.seven:hover,.eight:hover,
-            .nine:hover,.ten:hover,.eleven:hover,.twelve:hover{
-                transform: scale(1.5)
-            }
-            h2{
-                text-align: center;
-                font-size: 50px;
-                color:blanchedalmond;
-            }
-            .ima{
-                width: 300px;
-                height: 300px;
-                transition: width 2s, height 2s, transform 2s;
-                text-align: center;
-            }
-
-            .ima:hover {
-                width: 500px;
-                height: 500px;
-                transform: rotate(360deg);
-            }
-            h1:hover{
-                background-color: black;
-                color:goldenrod;
-                border:20px solid goldenrod;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex">
-            
-                <div class="mgr"><a href="#home">Home</a></div>
-                <div class="mgr"><a href="#news">News</a></div>
-                <div class="mgr"><a href="#contact">Contact</a></div>
-                <div class="mgr"><a href="#about">About</a></div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class = "navbar">
+        <i class="fa fa-github" style="font-size:48px;"></i>
+    </div>
+    <div class="container">
+        <div class="sidebar"></div>
+        <div class = 'search'>Search</div>
+        <div class="content-container">
+            <div class ='c1'></div>
+            <div class ='c2'></div>
+            <div class ='c3'></div>
+            <div class ='c4'></div>
         </div>
-        <header><image class="ima" src="logo.jpg"></image> <h1>Batting Line Up</h1></header>
-        <div class = "wrap">
-            <div class="one">
-                <image src="ruthraj.png"></image><br>
-                Ruthraj<br>Batsman
-            </div>
-            <div class="two">
-                <image src="convey.png" ></image><br>
-                Conway<br>Batsman
-            </div>
-            <div class="three">
-                <image src="dube.png" ></image><br>
-                Shivam Dube<br>Batsman
-            </div>
-            <div class="four">
-                <image src="moen.png"></image><br>
-                Moeen Ali<br> All-rounder
-            </div>
-            <div class="five">
-                <image src="stokes.png" ></image><br>
-                Ben Stokes <br> All-rounder
-            </div>
-            <div class="six">
-                <image src="rayudu.png" ></image><br>
-                Ambati Rayudu <br>Batsman
-            </div>
-            <div class="seven">
-                <image src="jadu.png" ></image><br>
-                Ravindra Jedeja <br> All-rounder
-            </div>
-            <div class="eight">
-                <image src="MSD.png" ></image><br>
-                M S Dhoni <br> Caption <br> Wicket Keeper/Batsman
-            </div>
-            <div class="nine">
-                <image src="santner.png" ></image><br>
-                M Santner <br> Bowling All-rounder
-            </div>
-            <div class="ten">
-                <image src="chahar.png" ></image><br>
-                Deepak Chahar <br> Bowler
-            </div>
-            <div class="eleven">
-                <image src="raj.png" ></image><br>
-                R S Hangargeker <br> Bowler
-            </div>
-            <div class="twelve">
-                <image src="tushar.png" ></image><br>
-                Tushar Deshpande <br> Bowler <br> <span style="color:red"><b>IMPACT PLAYER</b></span>
-            </div>
-        </div>  
-        <div>
-            <h2 class="ima" style="color:white">"Start the Whistle"</h2>
-        </div>
-    </body>
+    </div>
+    <div class ='footer'>
+    </div>
+</body>
 </html>
